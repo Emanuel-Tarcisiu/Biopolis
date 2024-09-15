@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biopolis - Monitor Your Environment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="logo.png" alt="Biopolis Logo">
+            <h2>BIOPOLIS</h2>
+        </div>
+        <ul class="sidebar-links">
+            <li><a href="#" onclick="showSection('signup')">👤 <span>Sign Up</span></a></li>
+            <li><a href="#" onclick="showSection('map')">🗺️ <span>Map</span></a></li>
+            <li><a href="#" onclick="showSection('air')">🌬️ <span>Air Quality</span></a></li>
+            <li><a href="#" onclick="showSection('vegetation')">🌿 <span>Vegetation Health</span></a></li>
+            <li><a href="#" onclick="showSection('temperature')">🌡️ <span>Temperature</span></a></li>
+            <li><a href="#" onclick="showSection('urban')">🏙️ <span>Urban Development</span></a></li>
+            <li><a href="#" onclick="showSection('carbon')">🛢️ <span>Carbon Emissions</span></a></li>
+        </ul>
+    </aside>
+
+    <div class="main-content">
+        <div id="signup" class="data-card signup-card">
+            <div class="form-header">
+                <img src="copac.png" alt="Tree image" class="form-image">
+                <h3>Create Account</h3>
+            </div>
+            <form>
+                <div class="form-group">
+                    <input type="text" id="first-name" name="first-name" placeholder="First name" required>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last name" required>
+                </div>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <small>You must have at least 8 characters</small>
+                <button type="submit">Create</button>
+            </form>
+        </div>
+
+        <div id="map" class="data-card">
+            <h3>Map Section</h3>
+            <div class="subsection">
+                <img src="1.png" alt="Interactive Map" class="map-image">
+            </div>
+        </div>
+
+        <div id="air" class="data-card">
+            <h3>Air Quality</h3>
+            <div class="subsection">
+                <h4>Visual Data Dashboard</h4>
+                <p>Charts and graphs in air quality.</p>
+            </div>
+            <img src="2.jpg" alt="Air Quality Chart" class="chart-image">
+            
+        </div>
+
+        <div id="vegetation" class="data-card">
+            <h3>Vegetation Health</h3>
+            <div class="subsection">
+                <h4>Visual Data Dashboard</h4>
+                <p>Charts and graphs in vegetation health.</p>
+                <img src="veg.png"  class="chart-image">
+            </div>
+            
+        </div>
+
+        <div id="temperature" class="data-card">
+            <h3>Temperature</h3>
+            <div class="subsection">
+                <h4>Visual Data Dashboard</h4>
+                <p>Charts and graphs in temperature.</p>
+                <img src="temp.png"  class="chart-imaget">
+            </div>
+           
+        </div>
+
+        <div id="urban" class="data-card">
+            <h3>Urban Development</h3>
+            <div class="subsection">
+                <h4>Visual Data Dashboard</h4>
+                <p>Charts and graphs  in urban development.</p>
+                <img src="urb.jpg"  class="chart-image">
+            </div>
+           
+           
+        </div>
+
+        <div id="carbon" class="data-card">
+            <h3>Carbon Emissions</h3>
+            <div class="subsection">
+                <h4>Visual Data Dashboard</h4>
+                <p>Charts and graphs in carbon emissions.</p>
+                <img src="carb.jpg"  class="chart-image">
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
