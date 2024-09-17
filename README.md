@@ -10,7 +10,7 @@ Currently, every person heard at least once about the global warming or air poll
 
 For most people, that is just a vague idea to be considered once in a while, but what if we could easily get informed in real time about the current status of our local environment?
 
-The data is already there, but Biopolis aims to aggregate it from different sources and satellite imagery, which is hard to understand as a person who's not familiar with the field, transforming it into intuitive, visual information.
+The data is already available, but Biopolis aims to aggregate it from different sources and satellite imagery, which is hard to understand as a person who's not familiar with the field, transforming it into intuitive, visual information.
 
 ## Features
 
