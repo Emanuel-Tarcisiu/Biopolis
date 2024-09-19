@@ -51,7 +51,11 @@ Biopolis could provide a historic of carbon emissions in the area, and let citiz
 ## Team
 
 Andreea Bahan - High School Student - Frontend Developer
+
 Iuliana Amaritei - High School Student - Frontend Developer
+
 Clima Tudor - College Student - Backend Developer
+
 Chiuta Mihai Marcel - College Student - Backend Developer / Designer / Team Lead
+
 Orsan Emanuel Tarsiciu - College Student - Back End Developer
